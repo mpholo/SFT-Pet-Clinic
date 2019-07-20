@@ -1,4 +1,4 @@
-package com.learning.mpholo.sftpetclinic;
+package sftpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
