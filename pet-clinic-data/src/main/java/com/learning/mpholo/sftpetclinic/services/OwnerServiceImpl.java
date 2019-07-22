@@ -12,7 +12,7 @@ public class OwnerServiceImpl implements  OwnerService {
         this.ownerRepository = ownerRepository;
     }
 
-    @Override` `
+    @Override
     public Owner findById(Long id) {
         return ownerRepository.findById(id);
     }
@@ -29,6 +29,15 @@ public class OwnerServiceImpl implements  OwnerService {
 
     @Override
     public Owner findByLasName(String lastName) {
-        return null;
+        return ownerRepository.findByLasName(lastName);
+    }
+
+    @Override
+    public void delete(Owner object) {
+    }
+
+    @Override
+    public void deleteById(Long object) {
+
     }
 }
