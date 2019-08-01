@@ -29,15 +29,15 @@ public class DataLoader implements CommandLineRunner {
         owner1.setLastName("Leboea");
         ownerService.save(owner1.getId(),owner1);
 
+
         Owner owner2 = new Owner();
-        owner1.setId(2L);
-        owner1.setFirstName("Kenalemang");
-        owner1.setLastName("Leboea");
-        ownerService.save(owner1.getId(),owner1);
+        owner2.setId(2L);
+        owner2.setFirstName("Kenalemang");
+        owner2.setLastName("Leboea");
 
         ownerService.save(owner2.getId(),owner2);
 
-        System.out.println("Loaed Onwer......");
+        System.out.println("Loaed Owenr......");
 
         Vet vet1 = new Vet();
         vet1.setFirstName("James");
