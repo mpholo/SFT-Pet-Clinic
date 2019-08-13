@@ -35,7 +35,7 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
 
-        System.out.println("Loaed Owenr......");
+        System.out.println("Load Oweners......");
 
         Vet vet1 = new Vet();
         vet1.setFirstName("James");
@@ -49,7 +49,7 @@ public class DataLoader implements CommandLineRunner {
 
         vetService.save(vet2);
 
-        System.out.println("Loaed ......");
+        System.out.println("Loaded Vets ......");
 
 
 
