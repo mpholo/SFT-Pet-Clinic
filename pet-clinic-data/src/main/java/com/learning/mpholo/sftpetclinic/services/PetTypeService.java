@@ -1,6 +1,6 @@
 package com.learning.mpholo.sftpetclinic.services;
 
-import com.learning.mpholo.sftpetclinic.model.Pet;
+import com.learning.mpholo.sftpetclinic.model.PetType;
 
-public interface PetTypeService extends CrudService<Pet,Long> {
+public interface PetTypeService extends CrudService<PetType,Long> {
 }
