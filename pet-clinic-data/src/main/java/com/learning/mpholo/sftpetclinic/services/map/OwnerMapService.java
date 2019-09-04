@@ -5,9 +5,11 @@ import com.learning.mpholo.sftpetclinic.model.Pet;
 import com.learning.mpholo.sftpetclinic.services.OwnerService;
 import com.learning.mpholo.sftpetclinic.services.PetService;
 import com.learning.mpholo.sftpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
+@Profile({"default","map"})
 public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
 
     private PetService petService;
