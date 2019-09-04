@@ -8,12 +8,12 @@ import com.learning.mpholo.sftpetclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
+public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
 
     private PetService petService;
     private PetTypeService petTypeService;
 
-    public OwnerServiceMap(PetService petService, PetTypeService petTypeService) {
+    public OwnerMapService(PetService petService, PetTypeService petTypeService) {
         this.petService = petService;
         this.petTypeService = petTypeService;
     }
